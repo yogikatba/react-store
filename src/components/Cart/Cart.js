@@ -6,7 +6,7 @@ import {ProductConsumer} from '../../context'
 import List from './List'
 import Totals from './Totals'
 
-export default function Cart() {
+export default function Cart(props) {
     return (
         <section>
             <ProductConsumer>
@@ -17,7 +17,7 @@ export default function Cart() {
                             <Title name="your" title=" cart"/>
                             <CartColumns/>
                             <List value={value}/>
-                            <Totals value={value}/>
+                            <Totals value={value} history={props.history}/>
                             </div>
                         )
                     }
