@@ -3,6 +3,7 @@ import './App.css';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Cart from './components/Cart/Cart'
+import Footer from './components/Footer'
 import Navbar from './components/Navbar'
 import ProductList from './components/ProuctList'
 import Default from './components/Default'
@@ -20,6 +21,7 @@ function App() {
         <Route path="/cart" component={Cart}/>
         <Route component={Default}/>
       </Switch>
+      <Footer/>
     </div>
   );
 }
