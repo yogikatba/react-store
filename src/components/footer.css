@@ -1,7 +1,8 @@
-.footer{
-    color: #888888;
-    border-top: 1px solid #eeeeee;
-    margin-top: 12px;
-    padding: 12px 0;
-    justify-content: center;
+.footer {
+  color: #888888;
+  border-top: 1px solid #eeeeee;
+  margin-top: 12px;
+  padding: 12px 0;
+  justify-content: center;
+  font-size: xx-large;
 }
